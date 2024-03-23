@@ -9,15 +9,16 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #004643;
-        /* display: flex;
-        justify-content: center; */
+        background-color: #001a23;
+        display: flex;
+        justify-content: center; 
       }
 
       .banner-image {
         width: 128px;
         height: 160px;
         border-radius: 128px;
+        object-fit: cover;
       }
 
       .thumbnail {
@@ -28,25 +29,25 @@
       }
 
       .name {
-        color: #fffffe;
+        color: #e8f1f2;
         display: flex;
         justify-content: center;
       }
 
       .social-icons a {
-        color: #fffffe;
+        color: #e8f1f2;
         text-decoration: none;
       }
 
       .link {
-        background-color: #f9bc60;
+        background-color: #b3efb1;
         display: flex;
         align-items: center;
         padding: 5px;
       }
 
       .link a {
-        color: #001e1d;
+        color: #31493c;
         text-decoration: none;
         text-align: center;
         flex-grow: 1;
@@ -57,7 +58,7 @@
         flex-direction: column;
         gap: 30px;
         max-width: 640px;
-        /* flex-grow: 1; */
+        flex-grow: 1;
       }
 
       .banner {
@@ -79,56 +80,61 @@
           <!-- UTF-8 allows for all languages as well as things like emoji -->
   </head>
   <body>
-    <div class="banner">
-      <img src="flower1.jpg" alt="Teresa Pham headshot" class="banner-image">
+    <div class="items">
+      <div class="banner">
+        <img src="flower1.jpg" alt="Teresa Pham headshot" class="banner-image">
+      </div>
+
+      <div class="name">
+        Teresa Pham
+      </div>
+
+      <div class="social-icons">
+        <img src="github_thumbnail.png" alt="Github Thumbnail" class="thumbnail">
+        <a href="https://github.com/teresa-c-pham" target="_blank">
+          GitHub
+        </a>
+
+        <img src="linkedin_thumbnail.png" alt="LinkedIn Thumbnail" class="thumbnail">
+        <a href="https://www.linkedin.com/in/pham-teresa/" target="_blank">
+          LinkedIn
+        </a>
+
+        <img src="instagram_thumbnail.jpg" alt="Instagram Thumbnail" class="thumbnail">
+        <a href="https://www.instagram.com/teresa.la.chau/" target="_blank">
+          Instagram
+        </a>
+
+        <img src="facebook_thumbnail.jpg" alt="Facebook Thumbnail" class="thumbnail">
+        <a href="https://facebook.com/teresa.la.chau" target="_blank">
+          Facebook
+        </a>
+      </div>
+
+      <div class="link">
+        <img
+          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" class="thumbnail">
+
+        <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
+          — Paul Graham</a>
+      </div>
+
+      <div class="link">
+        <img src="/thumbnails/typography.jpg" class="thumbnail">
+
+        <a target="_blank"
+          href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
+          Butterick</a>
+      </div>
+
+      <div class="link">
+        <img
+          src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
+
+        <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
+          Life-Saving Checklist — The New Yorker</a>
+      </div>
     </div>
-
-    <div class="name">
-      Teresa Pham
-    </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/teresa-c-pham" target="_blank">
-        GitHub
-      </a>
-
-      <a href="https://www.linkedin.com/in/pham-teresa/" target="_blank">
-        LinkedIn
-      </a>
-
-      <a href="https://www.instagram.com/teresa.la.chau/" target="_blank">
-        Instagram
-      </a>
-
-      <a href="https://facebook.com/teresa.la.chau" target="_blank">
-        Facebook
-      </a>
-    </div>
-
-    <div class="link">
-      <img
-        src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" class="thumbnail">
-
-      <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
-        — Paul Graham</a>
-    </div>
-
-    <div class="link">
-      <img src="/thumbnails/typography.jpg" class="thumbnail">
-
-      <a target="_blank"
-        href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
-        Butterick</a>
-    </div>
-
-    <div class="link">
-      <img
-        src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
-
-      <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
-        Life-Saving Checklist — The New Yorker</a>
-    </div>
-
     <!-- Etc, for as many links as you want -->
   </body>
 </html>
